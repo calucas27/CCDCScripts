@@ -10,7 +10,7 @@ do
 
 	if [ -z "$output" ]
 	then
-		echo "No shells found on default Meterpreter port, exiting!"
+		echo "No processes found on default Meterpreter port, exiting!"
 		break #output is empty, no shells found -- break the loop
 	else
 		kill -9 $(lsof -t -i:4444) #output is NOT empty, kill all shells on 4444
