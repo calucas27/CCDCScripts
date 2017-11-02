@@ -1,5 +1,5 @@
 # ccdcscripts
-Collection of scripts for hardening systems in a CCDC-style competition.
+Collection of scripts for hardening systems in a CCDC-style environment.
 
 | Script | Description |
 | --- | --- |
