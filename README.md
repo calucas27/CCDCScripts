@@ -1,5 +1,5 @@
 # ccdcscripts
-Collection of scripts for hardening systems in a CCDC-style environment.
+Collection of scripts for hardening Linux systems in a CCDC-style environment.
 
 | Script | Description |
 | --- | --- |
