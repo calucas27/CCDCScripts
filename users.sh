@@ -8,7 +8,7 @@ echo -e "Adding backup admin account!"
 useradd ccdcadmin
 usermod -aG sudo ccdcadmin
 
-users="$(cut -d : -f 1 /etc/passwd | grep -v root | grep -v ccdcadmin)"
+users="$(cat /etc/passwd | grep /bin/bash | cut -d : -f 1 | grep -v root | grep -v ccdcadmin)"
 
 #deny login for all accounts except for root and ccdcadmin
 echo -e "Locking user accounts!"
