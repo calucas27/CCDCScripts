@@ -1,4 +1,4 @@
-o "Flushing all chains"
+echo "Flushing all chains"
 iptables -F
 
 echo "Setting default policy to DROP"
